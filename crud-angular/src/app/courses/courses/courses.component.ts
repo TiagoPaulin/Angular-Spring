@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { Course } from '../model/course';
-import { MatTableModule } from '@angular/material/table';
+import { AppMaterialModule } from '../../shared/app-material/app-material.module';
+
 
 @Component({
   selector: 'app-courses',
   imports: [
-    MatTableModule
+    AppMaterialModule
   ],
   templateUrl: './courses.component.html',
   styleUrl: './courses.component.scss'
