@@ -1,0 +1,23 @@
+[
+  { "_id": "1", "name": "Angular", "category": "Front-end" },
+  { "_id": "2", "name": "React", "category": "Front-end" },
+  { "_id": "3", "name": "Vue.js", "category": "Front-end" },
+  { "_id": "4", "name": "Node.js", "category": "Back-end" },
+  { "_id": "5", "name": "Spring Boot", "category": "Back-end" },
+  { "_id": "6", "name": "Django", "category": "Back-end" },
+  { "_id": "7", "name": "Flutter", "category": "Mobile" },
+  { "_id": "8", "name": "React Native", "category": "Mobile" },
+  { "_id": "9", "name": "Swift", "category": "Mobile" },
+  { "_id": "10", "name": "Kotlin", "category": "Mobile" },
+  { "_id": "11", "name": "SQL", "category": "Database" },
+  { "_id": "12", "name": "MongoDB", "category": "Database" },
+  { "_id": "13", "name": "PostgreSQL", "category": "Database" },
+  { "_id": "14", "name": "AWS", "category": "Cloud" },
+  { "_id": "15", "name": "Docker", "category": "DevOps" },
+  { "_id": "16", "name": "Kubernetes", "category": "DevOps" },
+  { "_id": "17", "name": "Python", "category": "Programming" },
+  { "_id": "18", "name": "Java", "category": "Programming" },
+  { "_id": "19", "name": "C#", "category": "Programming" },
+  { "_id": "20", "name": "JavaScript", "category": "Programming" }
+]
+
