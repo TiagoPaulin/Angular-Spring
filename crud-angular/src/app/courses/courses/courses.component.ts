@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { Course } from '../model/course';
 import { AppMaterialModule } from '../../shared/app-material/app-material.module';
 import { CoursesService } from '../services/courses.service';
-import { Observable } from 'rxjs';
+import { Observable, of } from 'rxjs';
 
 
 @Component({
@@ -15,12 +15,12 @@ import { Observable } from 'rxjs';
 })
 export class CoursesComponent {
 
-  courses: Observable<Course[]>;
+  courses$: Observable<Course[]>;
   displayedColumns: string[] = ['name', 'category'];
 
   constructor(private courseService: CoursesService) {
 
-    this.courses = this.courseService.list();
+    this.courses$ = this.courseService.list();
 
   }
 
