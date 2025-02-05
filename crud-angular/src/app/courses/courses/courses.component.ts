@@ -5,13 +5,15 @@ import { CoursesService } from '../services/courses.service';
 import { catchError, Observable, of } from 'rxjs';
 import { MatDialog } from '@angular/material/dialog';
 import { ErrorDialogComponent } from '../../shared/components/error-dialog/error-dialog.component';
+import { CategoryPipe } from "../../shared/pipes/category.pipe";
 
 
 @Component({
   selector: 'app-courses',
   imports: [
-    AppMaterialModule
-  ],
+    AppMaterialModule,
+    CategoryPipe
+],
   templateUrl: './courses.component.html',
   styleUrl: './courses.component.scss'
 })
